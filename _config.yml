@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "나의 이것저것"
+title                    : "ㅇㅌㅇ의 이것저것"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Taeyoung Youn"
@@ -28,7 +28,7 @@ repository               : "tyyoun111/tyyoun111.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : # true, false (default)
+breadcrumbs              : ture # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
@@ -116,7 +116,7 @@ author:
   name             : "Taeyoung Youn"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "아직은 학생"
-  location         : "Seoul"
+  location         : "Seoul in South Korea"
   email            : #
   links:
     - label: "Email"
@@ -263,7 +263,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jeckll-archives
+  - jekyll-archives
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -324,3 +324,6 @@ defaults:
       comments: # true
       share: true
       related: true
+      show_date: true
+
+date_format: "%Y-%m-%d"
