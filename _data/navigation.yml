@@ -14,21 +14,23 @@ docs:
   - title: "논문리뷰"
     children:
       - title: "AI"
-        url: /categories/AI/
+        url: /docs/AI/
       - title: "EE"
-        url: /categories/EE/
+        url: /docs/EE/
 
 
   - title: "공부"
     children:
       - title: "CUDA"
-        url: /categories/CUDA/
+        url: /docs/CUDA/
       - title: "English"
-        url: /categories/English/
+        url: /docs/English/
 
   - title: Issues
-    url: /categories/"issues"/
+    url: /docs/"issues"/
 
+  - title: "그 외"
+    url: /docs/"etc"/
     
 
   # - title: "About"
