@@ -1,37 +1,9 @@
 # main links
 main:
-  - title: "Category"
-    url: /categories/
   - title: "Tag"
-    url: /tags/
+    url: /posts/
   - title: "Search"
     url: /search/
-
-docs:
-  - title: "전체 게시글"
-    url: /docs/home/
-
-  - title: "논문리뷰"
-    children:
-      - title: "AI"
-        url: /docs/AI/
-      - title: "EE"
-        url: /docs/EE/
-
-
-  - title: "공부"
-    children:
-      - title: "CUDA"
-        url: /docs/CUDA/
-      - title: "English"
-        url: /docs/English/
-
-  - title: Issues
-    url: /docs/"issues"/
-
-  - title: "그 외"
-    url: /docs/"etc"/
-    
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/

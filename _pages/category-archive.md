@@ -1,7 +1,6 @@
 ---
-title: "Category"
-layout: categories
-permalink: /categories/
+title: ""
+layout: posts
+permalink: /posts/
 author_profile: true
-sidebar_mail: true
 ---
