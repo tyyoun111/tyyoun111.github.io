@@ -46,7 +46,7 @@
             <li><a href="/categories/논문리뷰/{{ tag }}" class="">{{ tag }} ({{ cnt }})</a></li>
           </ul>
         {% endfor %}
-
+<!--
         <span class="nav__sub-title" v-on:click='togglec()'><a href="/categories/공부"> 공부 ({{ site.categories['공부'].size }})</a></span>
         {% assign study_tags = "CUDA, English" | split: ", " %}
         {% for tag in study_tags %}
@@ -60,7 +60,7 @@
             <li><a href="/categories/공부/{{ tag }}" class="">{{ tag }} ({{ cnt }})</a></li>
           </ul>
         {% endfor %}
-        <span class="nav__sub-title" v-on:click='togglec()'><a href="/categories/ISSUES"> ISSUES ({{ site.categories['ISSUES'].size }})</a></span>
+        <span class="nav__sub-title" v-on:click='togglec()'><a href="/categories/ISSUES"> ISSUES ({{ site.categories['ISSUES'].size }})</a></span>-->
       </li>
   </ul>
 </nav>
