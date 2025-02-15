@@ -17,11 +17,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "ㅇㅌㅇ의 이것저것"
+title                    : "TY 공부일기"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Taeyoung Youn"
-description              : "공부, 취미 기타등"
+description              : "공부를 비롯한 이것저것"
 url                      : "https://tyyoun111.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "tyyoun111/tyyoun111.github.io"
@@ -317,8 +317,8 @@ defaults:
       share: true
       related: true
       show_date: true
-      # sidebar:
-      #   nav: "docs"
+      sidebar:
+        nav: "docs"
   # _pages
   - scope:
       path: ""
