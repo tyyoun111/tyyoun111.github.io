@@ -26,7 +26,7 @@ classes: wide
 
 # Introduction
 
-<center>![Tinyllama picture](../../assets/img/2025-03-03-Tinyllama/Tinyllama picture.png)</center>
+<center><img src="../../assets/img/2025-03-03-Tinyllama/Tinyllama picture.png" alt="tinyllama picture"/></center>
 
 
 
@@ -52,7 +52,7 @@ Llama모델을 기반으로, decoder-only Transformer를 사용했다.
 
 다음은 모델 아키텍처의 하이퍼파라미터에 대한 내용이다.
 
-<center>![](../../assets/img/2025-03-03-Tinyllama/Tinyllama_table1.png)</center>
+<center><img src="../../assets/img/2025-03-03-Tinyllama/Tinyllama_table1.png" alt="tinyllama_table1"</center>
 
 
 
@@ -92,7 +92,7 @@ ReLU활성화 함수 대신, Llama에서 사용된 SwiGLU를 채택했다. Swish
 
 다음은 훈련 속도를 기존 모델인 Pythia-1.0B 및 MPT-1.3B와 비교하고, 3000억 개의 토큰을 훈련하는데 필요한 GPU시간을 기준으로 평가한 결과이다. 
 
-<center>![Tinyllama_table2](../../assets/img/2025-03-03-Tinyllama/Tinyllama_table2.png)</center>
+<center><img src="../../assets/img/2025-03-03-Tinyllama/Tinyllama_table2.png" alt="tinyllama_table2"</center>
 
 
 
@@ -108,7 +108,7 @@ Llama2의 설정을 따르며, 최적화 기법으로 AdamW optimizer를 사용�
 
  다음은 pre-training stage와 specialization 파이프라인이다.
 
-<center>![Tinyllama_figure1](../../assets/img/2025-03-03-Tinyllama/Tinyllama_figure1.png)</center>
+<center><img src="../../assets/img/2025-03-03-Tinyllama/Tinyllama_figure1.png" alt="tinyllama_figure1"</center>
 
 
 
@@ -118,13 +118,13 @@ Llama2의 설정을 따르며, 최적화 기법으로 AdamW optimizer를 사용�
 
 
 
-<center> ![Tinyllama_table3](../../assets/img/2025-03-03-Tinyllama/Tinyllama_table3.png)</center>
+<center> <img src="../../assets/img/2025-03-03-Tinyllama/Tinyllama_table3.png"alt="tinyllama_table3"/></center>
 
 
 
 다음은 InstructEval Benchmark의 problem-solving 작업에서 성능에 대한 결과이다.
 
-<center>![Tinyllama_table4](../../assets/img/2025-03-03-Tinyllama/Tinyllama_table4.png)</center>
+<center><img src="../../assets/img/2025-03-03-Tinyllama/Tinyllama_table4.png"alt="tinyllama_table4"/></center>
 
 
 
@@ -132,7 +132,7 @@ Llama2의 설정을 따르며, 최적화 기법으로 AdamW optimizer를 사용�
 
 다음은 Chinese understanding 작업에서 Zero-shot 성능에 대한 결과이다.
 
-<center>![Tinyllama_table5](../../assets/img/2025-03-03-Tinyllama/Tinyllama_table5.png)</center>
+<center><img src="../../assets/img/2025-03-03-Tinyllama/Tinyllama_table5.png"alt="tinyllama_table5"/></center>
 
 
 
