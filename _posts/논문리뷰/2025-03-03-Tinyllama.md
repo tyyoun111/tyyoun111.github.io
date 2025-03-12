@@ -52,7 +52,7 @@ Llama모델을 기반으로, decoder-only Transformer를 사용했다.
 
 다음은 모델 아키텍처의 하이퍼파라미터에 대한 내용이다.
 
-<center><img src="../../assets/img/2025-03-03-Tinyllama/Tinyllama_table1.png" alt="tinyllama_table1"</center>
+<center><img src="../../assets/img/2025-03-03-Tinyllama/Tinyllama_table1.png" alt="tinyllama_table1"/></center>
 
 
 
@@ -92,7 +92,7 @@ ReLU활성화 함수 대신, Llama에서 사용된 SwiGLU를 채택했다. Swish
 
 다음은 훈련 속도를 기존 모델인 Pythia-1.0B 및 MPT-1.3B와 비교하고, 3000억 개의 토큰을 훈련하는데 필요한 GPU시간을 기준으로 평가한 결과이다. 
 
-<center><img src="../../assets/img/2025-03-03-Tinyllama/Tinyllama_table2.png" alt="tinyllama_table2"</center>
+<center><img src="../../assets/img/2025-03-03-Tinyllama/Tinyllama_table2.png" alt="tinyllama_table2"/></center>
 
 
 
@@ -104,11 +104,11 @@ Llama2의 설정을 따르며, 최적화 기법으로 AdamW optimizer를 사용�
 
 최적의 하습을 위해 2,000개의 웜업 스텝을 사용하며, 배치크기는 200만 개의 토큰으로 설정되었다. 또한 weight decay 0.1, gradient clipping threshold 1.0으로 설정해 학습 안정성을 유지했다.
 
-그리고 Tinyllama의 사전학습을 16개의 A100-40G GPU에서 수행했다. 
+<center>  <img src="{{site.url}}/assets/img/2025-02-12-llama/LLaMA_Table2_hyperparameters.png" alt="LLaMA_Table2_hyperparameters"/> </center>
 
  다음은 pre-training stage와 specialization 파이프라인이다.
 
-<center><img src="../../assets/img/2025-03-03-Tinyllama/Tinyllama_figure1.png" alt="tinyllama_figure1"</center>
+<center><img src="../../assets/img/2025-03-03-Tinyllama/Tinyllama_figure1.png" alt="tinyllama_figure1"/></center>
 
 
 
